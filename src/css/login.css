@@ -1,0 +1,125 @@
+  .backgroundLogin {
+    background-size: cover;
+    background: url("https://uploads.codesandbox.io/uploads/user/06adff00-d320-4e9b-af24-9c518e944c52/nqY6-login-background.jpg");
+    background-repeat: no-repeat;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  .LoginBox {
+    position: absolute;
+    max-width: 300px;
+    width: 100%;
+    background: #fff;
+    border-radius: 4px;
+    padding: 1.187rem 1.875rem 2.062rem 1.875rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    .mercury-logologin {
+      background: url("https://uploads.codesandbox.io/uploads/user/06adff00-d320-4e9b-af24-9c518e944c52/Dazk-mercury-logo-login.png");
+      text-align: center;
+      background-repeat: no-repeat;
+      filter: invert(100%);
+      display: block;
+      width: 230px;
+      height: 60px;
+      margin: 0.875rem auto 0;
+    }
+    .UserLogin {
+      font-size: 0.875rem;
+      font-weight: bold;
+      color: #575674;
+      line-height: 1.062rem;
+  
+      .control-Element {
+        display: block;
+        margin-top: 0.875rem;
+        margin-bottom: 0.437rem;
+      }
+      .login-control {
+        background: #eeeef1;
+        border-radius: 4px;
+        border: 0 none;
+        padding: 0.75rem 0.625rem;
+        width: 100%;
+        color: #575674;
+        font-size: 0.875rem;
+        &:focus {
+          outline: none;
+          border: 0 none;
+        }
+      }
+    }
+    .submitLogin {
+      display: block;
+      margin-top: 1.475rem;
+      width: 100%;
+      text-align: center;
+      font-size: 1rem;
+      line-height: 1.25rem;
+      border-radius: 4px;
+      border: 0 none;
+      background: #575674;
+      color: #ffffff;
+      padding: 10px 0;
+      &:focus {
+        outline: none;
+        border: 0 none;
+      }
+    }
+    .Login-forgetRegister {
+      display: block;
+      margin-top: 12px;
+      font-size: 0.75rem;
+      font-weight: bold;
+      line-height: 17px;
+      color: #575674;
+      padding-left: 4px;
+      .registerUser,
+      .forgetPassword {
+        color: #575674;
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  .mercuryCopyright {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 2px;
+  }
+  .mercuryCopyLeft {
+    float: left;
+    a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 0.75rem;
+      padding-right: 10px;
+      float: left;
+      line-height: 18px;
+      text-transform: uppercase;
+    }
+  }
+  .mercuryCopyRight {
+    float: right;
+    color: #fff;
+    font-size: 0.75rem;
+    line-height: 18px;
+    a {
+      text-decoration: none;
+      color: #ff8833;
+    }
+  }
+  .clear {
+    clear: both;
+  }
+    

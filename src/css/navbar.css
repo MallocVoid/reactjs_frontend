@@ -1,0 +1,10 @@
+.navbar {
+  z-index: 99999;
+  border-bottom: #000000 2px solid;
+}
+
+.nav-item {
+  color: #000000;
+  margin: 0px 10px;
+  opacity: 1;
+}
